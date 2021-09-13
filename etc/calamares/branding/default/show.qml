@@ -22,7 +22,7 @@ Presentation
 
     Timer {
         id: advanceTimer
-        interval: 5000
+        interval: 8000
         running: presentation.activatedInCalamares
         repeat: true
         onTriggered: nextSlide()
@@ -71,7 +71,7 @@ Presentation
     Text {
         anchors.horizontalCenter: background.horizontalCenter
         anchors.top: background.bottom
-        text: "ALCI"
+        text: "JovarkOS"
         wrapMode: Text.WordWrap
         width: presentation.width
         horizontalAlignment: Text.Center

@@ -11,6 +11,8 @@
 componentName:  default
 
 
+# URL: https://coolors.co/1b2933-434343-0091eb-1a2833
+
 ### WELCOME / OVERALL WORDING
 #
 # These settings affect some overall phrasing and looks,
@@ -39,7 +41,7 @@ welcomeExpandingLogo:   true
 #  - "normal" or unset, expand as needed, use *windowSize*
 #  - "fullscreen", start as large as possible, ignore *windowSize*
 #  - "noexpand", don't expand automatically, use *windowSize*
-windowExpanding:    normal
+windowExpanding:    fullscreen
 
 # Size of Calamares window, expressed as w,h. Both w and h
 # may be either pixels (suffix px) or font-units (suffix em).
@@ -54,7 +56,7 @@ windowSize: 800px,520px
 # Whether "center" actually works does depend on the window
 # manager in use (and only makes sense if you're not using
 # *windowExpanding* set to "fullscreen").
-windowPlacement: center
+#windowPlacement: center
 
 ### PANELS CONFIGURATION
 #
@@ -121,13 +123,13 @@ navigation: widget
 # are visible as buttons there if the corresponding *show* keys
 # are set to "true" (they can also be overridden).
 strings:
-    productName:         ALCI
-    shortProductName:    ALCI
+    productName:         JovarkOS 
+    shortProductName:    JovarkOS
     version:             2021.01.1
     shortVersion:        2020.01.1
-    versionedName:       ALCI
-    shortVersionedName:  ALCI
-    bootloaderEntryName: Generic
+    versionedName:       JovarkOS
+    shortVersionedName:  JovarkOS
+    bootloaderEntryName: JovarkOS-zen
 
 # These images are loaded from the branding module directory.
 #
