@@ -1,1 +1,1 @@
-# Alci Calamares config
+# JovarkOS Calamares config
