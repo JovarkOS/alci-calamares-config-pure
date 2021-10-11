@@ -1,1 +1,1 @@
-# JovarkOS Calamares config
+# JovarkOS Calamares Config
