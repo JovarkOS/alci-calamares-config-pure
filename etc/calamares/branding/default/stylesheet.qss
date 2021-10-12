@@ -24,15 +24,19 @@ The examples are not exhaustive.
 
 */
 
-
-/* ########## MAIN APPLICATION WINDOW ########## */
+* {
+	font-family: Source Code Pro;
+}	
+*/MAIN APPLICATION WINDOW ########## */
 
 #mainApp {
+	background-color: #141414;
 }
 
 #mainText{
-	font : bold 16px;
-	font-family: Roboto;
+	font : bold 25px;
+	font-family: Source Code Pro;
+	font-weight: bold;
 }
 
 #sidebarApp {
@@ -43,8 +47,8 @@ The examples are not exhaustive.
 }
 
 #sidebarMenuApp {
-	padding: 3px;
-	background-color: #1B2933;
+	padding: 4px;
+	background-color: #141414;
 }
 
 QWidget {
@@ -83,8 +87,10 @@ QDialogButtonBox {
 /* ########## QLIST VIEW ########## */
 
 QListView {
-		font: 16px;
+	font-family: Source Code Pro;	
+	font: 16px;
 }
+
 
 
 /* ########## QLINE EDIT ########## */
@@ -261,4 +267,3 @@ QItemSelectionModel::Select {
 QHeaderView::section {
   font : 16px;
 }
-

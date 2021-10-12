@@ -11,8 +11,6 @@
 componentName:  default
 
 
-# URL: https://coolors.co/1b2933-434343-0091eb-1a2833
-
 ### WELCOME / OVERALL WORDING
 #
 # These settings affect some overall phrasing and looks,
@@ -56,7 +54,7 @@ windowSize: 800px,520px
 # Whether "center" actually works does depend on the window
 # manager in use (and only makes sense if you're not using
 # *windowExpanding* set to "fullscreen").
-#windowPlacement: center
+windowPlacement: center
 
 ### PANELS CONFIGURATION
 #
@@ -80,7 +78,7 @@ windowSize: 800px,520px
 # to putting the sidebar on the left. Also valid is "qml,top".
 # While "widget,top" is valid, the widgets code is **not** flexible
 # and results will be terrible.
-sidebar: widget
+sidebar: widget,bottom
 
 # Kind of navigation (button panel on the bottom).
 #  - "widget" or unset, use traditional navigation
@@ -123,13 +121,13 @@ navigation: widget
 # are visible as buttons there if the corresponding *show* keys
 # are set to "true" (they can also be overridden).
 strings:
-    productName:         JovarkOS 
+    productName:         JovarkOS PowerFoo 
     shortProductName:    JovarkOS
-    version:             2021.01.1
-    shortVersion:        2020.01.1
-    versionedName:       JovarkOS
-    shortVersionedName:  JovarkOS
-    bootloaderEntryName: JovarkOS-zen
+    version:             2021.10.11
+    shortVersion:        2-beta
+    versionedName:       PowerFoo
+    shortVersionedName:  Foo
+    bootloaderEntryName: JovarkOS
 
 # These images are loaded from the branding module directory.
 #
@@ -160,10 +158,10 @@ strings:
 # These filenames can also use substitutions from os-release (see above).
 images:
     # productBanner:       "banner.png"
-    productIcon:         "squid.png"
-    productLogo:         "squid.png"
+    productIcon:         "logo.png"
+    productLogo:         "logo.png"
     # productWallpaper:    "wallpaper.png"
-    productWelcome:      "2-alci.png"
+    productWelcome:      "welcome.png"
 
 # Colors for text and background components.
 #
@@ -179,8 +177,8 @@ images:
 style:
    sidebarBackground:    "#292F34"
    sidebarText:          "#FFFFFF"
-   sidebarTextSelect:    "#292F34"
-   sidebarTextHighlight: "#D35400"
+   sidebarTextSelect:    "#141414"
+   sidebarTextHighlight: "#0091EB"
 
 ### SLIDESHOW
 #
